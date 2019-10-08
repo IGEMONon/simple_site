@@ -1,0 +1,62 @@
+.top_border{border:1px solid #333333;}
+p{font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px; margin: 14px;}
+.right{background-color: #f1feec; border-right: 1px solid #31a500; }
+body{background-image: url(img/background.gif)}
+
+p.head_1 {
+    background-color: #31a500;
+    color: #ffffff;
+    font-weight:bold;
+    margin:5px;
+    padding:5px;
+}
+
+#menu{
+    border: 1px solid #31a500; /*рамки*/
+    border-bottom-width: 0;
+    width: 180px; /*Ширина меню */
+    background-color: #f6f6f6;  /*Фон цветa ячейки*/
+    margin:6px; /*Ширина отступов*/
+}
+
+* html #menu{
+    width: 150px;/*Ширина меню в Internet Explorer*/
+}
+
+#menu a{
+    font: bold 13px Verdana; /*Шрифт текста*/
+    padding: 2px; /*Внутренний отсутп текста ссылки от краев ячейки*/
+    padding-left: 4px;/*Внутренний отсутп текста ссылки от левого края ячейки*/
+    display: block;
+    width: 100%; /*Ширина ячейки*/
+    color: #247601;  /*Цвет текста*/
+    text-decoration: none; /*Подчеркивание у ссылок - отсуствует*/
+    border-bottom: 1px solid #31a500;
+}
+
+html>body #menu a{
+    width: auto;
+}
+
+#menu a:hover{
+    background-color: #c9f9b5; /*Фон цвета ячейки при наведение курсора*/
+    color: #31a500;  /*Цвет текста при наведении курсора*/
+}
+p.head_2 {
+    background-color: #31a500; color: #ffffff; font-weight:bold; margin:5px; padding:5px; }
+.form01 {
+    font-family:  Verdana; font-size:  10px;}
+.form02  {
+    font-family:  Verdana; font-size:  11px;}
+.form_s {
+    border: 1px solid  #31a500;
+    margin:5px;}
+.training{border: 1px solid #31A500; width:96%;}
+
+.training_head{background-color: #F1FEEC;}
+
+.training_s{font-weight:bold; margin-top:6px; margin-bottom: 6px;}
+.training_date{font-size: 11px; margin-top: 6px; margin-bottom: 6px; color:#31A500;}
+
+.training_lesson_head{font-size: 17px; font-weight: bold; color: #ff7000; text-align: center;}
+.training_lesson_date{font-size: 10px; color: #0f4000; margin-top: 6px; margin-bottom: 6px; font-weight: bold;}
